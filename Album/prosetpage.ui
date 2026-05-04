@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>proSetPage</class>
+ <widget class="QWizardPage" name="proSetPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WizardPage</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="lineEdit_name"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_path">
+     <property name="text">
+      <string>保存路径：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="lineEdit_path"/>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_name">
+     <property name="text">
+      <string>项目名称：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="pushButton_browse">
+     <property name="text">
+      <string>浏览</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLabel" name="label_tips">
+     <property name="text">
+      <string>Tips:</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
